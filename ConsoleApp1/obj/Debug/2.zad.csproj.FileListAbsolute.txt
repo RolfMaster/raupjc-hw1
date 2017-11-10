@@ -1,7 +1,0 @@
-C:\Users\Sanja\source\repos\ConsoleApp2\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
-C:\Users\Sanja\source\repos\ConsoleApp2\ConsoleApp1\bin\Debug\ConsoleApp1.exe
-C:\Users\Sanja\source\repos\ConsoleApp2\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
-C:\Users\Sanja\source\repos\ConsoleApp2\ConsoleApp1\obj\Debug\2.zad.csprojResolveAssemblyReference.cache
-C:\Users\Sanja\source\repos\ConsoleApp2\ConsoleApp1\obj\Debug\2.zad.csproj.CoreCompileInputs.cache
-C:\Users\Sanja\source\repos\ConsoleApp2\ConsoleApp1\obj\Debug\ConsoleApp1.exe
-C:\Users\Sanja\source\repos\ConsoleApp2\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

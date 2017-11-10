@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.zad", "ConsoleApp2\1.zad.csproj", "{9BB8F4F3-3E11-4B27-B32F-CD21373FC6C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.zad", "IntegerList\1.zad.csproj", "{9BB8F4F3-3E11-4B27-B32F-CD21373FC6C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.zad", "ConsoleApp1\2.zad.csproj", "{50D34C2E-6289-4B8D-8C72-34EC9F8D8CFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.zad", "GenericList\2.zad.csproj", "{50D34C2E-6289-4B8D-8C72-34EC9F8D8CFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
