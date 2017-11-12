@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections;			//moram koristiti System.Collections kako bih implementirao enumerable sučelje
+using System.Collections.Generic;
+
+
 
 namespace ConsoleApp1
 {
@@ -96,6 +100,63 @@ namespace ConsoleApp1
 				return false;
 			else
 				return true;
+		}
+
+		public IEnumerator<X> GetEnumerator()
+		{
+			return new GenericListEnumerator<X>(this);
+		}
+
+		IEnumerator IEnumerable.GetEnumerator()
+		{
+			return GetEnumerator();
+		}
+	}
+
+
+
+	public class GenericListEnumerator<T> : IEnumerator<T>
+	{
+		private int _index;
+		private GenericList<T> listPointer;
+
+		public GenericListEnumerator(GenericList<T> genericList)
+		{
+			_index = -1;
+			listPointer =  genericList;
+		}
+
+		public void Dispose()
+		{
+			Current = default(T);
+		}
+
+		public bool MoveNext()
+		{
+			_index++;
+			try
+			{
+				Current = (T) listPointer.GetElement(_index);
+				return true;
+			}
+			catch (IndexOutOfRangeException)
+			{
+				_index--;
+				return false;
+			}
+		}
+
+		public void Reset()
+		{
+			Current = default(T);
+			_index = -1;
+		}
+
+		public T Current { get; private set; }
+
+		object IEnumerator.Current
+		{
+			get { return Current; }
 		}
 	}
 }

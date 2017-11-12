@@ -12,13 +12,13 @@ namespace ConsoleApp1
 		{
 			GenericList<String> a = new GenericList<string>();
 
-			a.Add("bobo");
-			a.Add("smrad");
-			a.Add("je");
-			a.Add("najbolji");
-			a.Add("ikad");
+			a.Add("ovi");
+			a.Add("stringovi");
+			a.Add("se");
+			a.Add("ispisuju");
+			a.Add("na ekran");
 
-
+			/*
 			a.RemoveAt(2);
 			a.Remove("smrad");
 			int b = a.Count;
@@ -26,6 +26,12 @@ namespace ConsoleApp1
 			bool bo = a.Remove("najgorši");
 			a.Clear();
 			b = a.Count;
+			*/
+
+			foreach (var i in a)
+			{
+				Console.Out.WriteLine(i);
+			}
 		}
 	}
 }

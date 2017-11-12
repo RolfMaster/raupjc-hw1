@@ -1,8 +1,8 @@
-﻿
+﻿using System.Collections.Generic; //ovdje moram koristiti System.Collections
 
 namespace ConsoleApp1
 {
-	public interface IGenericList<X>
+	public interface IGenericList<X> : IEnumerable<X>
 	{
 		/// <summary >
 		/// Adds an item to the  collection.
