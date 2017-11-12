@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic; //ovdje moram koristiti System.Collections
+﻿using System.Collections.Generic; //ovdje moram koristiti System.Collections zbog IEnumerable
 
 namespace ConsoleApp1
 {
